@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Escritorio Virtual: Sobre mi</title>
+    <meta name = "author" content = "LUCIA VILLANUEVA RODRIGUEZ" />
+    <meta name = "description" content = " Este documento contiene informacion personal del autor" />
+    <meta name = "keywords" content ="nombre, apellidos, UO" />
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel = "stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="icon" href="multimedia/imagenes/ImagenFavicon.jpg" />
+</head>
+
+<body>
+  <header>
+  <h1>Escritorio virtual</h1>
+  </header>
+  <section>
+  <article>
+    <!-- Datos con el contenidos que aparece en el navegador poner en minusculas todo -->
+    <nav>
+        <a title ="Inicio de escritorio virtual" accesskey ="A" href = "index.html" tabindex ="1"> Inicio </a>
+        <a title = "Informacion acerca del autor del escritorio" accesskey ="S" href = "sobremi.html" tabindex ="2">Sobre mi </a>
+        <a title = "Noticias" accesskey ="N" href = "noticias.html" tabindex = "3">Noticias</a>
+        <a title = "Agenda" accesskey ="G" href = "agenda.html" tabindex = "4">Agenda</a>
+        <a title = "Meteorologia" accesskey ="M" href = "meteorologia.html" tabindex ="5">Meteorologia</a>
+        <a title = "Viajes" accesskey ="V" href = "viajes.html" tabindex ="6">Viajes</a>
+        <a title = "Juegos" accesskey ="J" href = "juegos.html" tabindex = "7">Juegos</a>
+    </nav>
+  </article>
+    <article>
+    <!---Informacion personal-->
+   <h2>Informacion personal</h2>
+       <p>Nombre: Lucia</p>
+       <p>Apellidos: Villanueva Rodriguez</p>
+       <p>UO: UO283535</p>
+       <p>Correo electronico: uo283535@uniovi.es </p>
+       <p>Soy estudiante, actualmente hago tercero de carrera del grado Ingenieria Informatica del software. En mi tiempo libre, disfruto de mi familia y amigos.Me considero amigable y muy organizada.</p>
+       <picture>
+         <source srcset="multimedia/imagenes/Imagen3.JPG" media="(max-width: 465px)" />
+         <source srcset="multimedia/imagenes/Imagen2.JPG" media="(max-width: 799px)" />
+         <source srcset="multimedia/imagenes/Imagen1.JPG" media="(min-width: 800px)" />
+         <img src="multimedia/imagenes/Imagen1.JPG" alt="Viajes" />
+       </picture>
+       </article>
+       <article>
+    <!---Listas-->
+    <!---Lista de aficiones (no ordenada) con al menos 5 elementos se incluye una lista anidada con elementos ordenados de mis ciudades visitadas favoritas-->
+    <h3>Aficiones</h3>
+    <ul>
+      <li>Viajar
+        <ol type="i">
+          <li>Roma</li>
+          <li>Paris</li>
+          <li>Copenhague</li>
+          <li>Lisboa</li>
+          <li>Estocolmo</li>
+        </ol>
+      </li>
+      <li>Natacion</li>
+      <li>Coches</li>
+      <li>Escuchar musica</li>
+      <li>Hacer yoga</li>
+    </ul>
+   <video controls>
+    <source src="multimedia/videos/VideoViajes.mp4" type="video/mp4" />
+    <source src="multimedia/videos/VideoViajes.webm" type="video/webm" />
+    <p>Video no soportado</p>
+   </video>
+   </article>
+   <article>
+    <!--Lista de grupos musicales o cantantes favoritos (ordenada) con al menos 5 elementos-->
+    <h3>Grupos musicales / Cantantes favoritos</h3>
+    <ol>
+      <li>Coldplay</li>
+      <li>Manuel Turizo</li>
+      <li>Sebatiasn Yatra</li>
+      <li>Alejandro Sanz</li>
+      <li>OneRepublic</li>
+    </ol>
+    <!--Ejercicio 8-->
+    <a href="https://www.coldplay.com/tour/">Conoce todos los conciertos de la gira de ColdPlay</a>
+    <a href="https://www.alejandrosanz.com/home">Descubre las ultimas novedades de Alejandro Sanz</a>
+  </article>
+    <article>
+   <h3>Lista de asignaturas del grado que mas me hayan gustado</h3>
+    <dl>
+      <dt>BD</dt>
+      <dd>Bases de datos, lo que mas me ha gustado de esta asignatura es la parte de JDBC ya que me gusta mucho la parte de Sistemas de gestion de bases de datos</dd>
+      <dt>CPM</dt>
+      <dd>Comunicacion persona-maquina, lo mejor de esta asignatura ha sido poder ir visualizando los progresos a traves de la interfaz de usuario a lo largo 
+        del curso</dd>
+      <dt>ED</dt>
+      <dd>Estructura de datos, lo que mas me ha gustado ha sido poder conocer la implementacion base de estructuras que habia utilizado anteriormente</dd>
+      <dt>AMD</dt>
+      <dd>Automatas y matematicas discretas, lo que mas me ha gustado ha sido</dd>
+      <dt>MP</dt>
+      <dd>Metodologia de la programacion, lo que mas me ha gustado ha sido </dd>
+    </dl>
+  </article>
+</section>
+    
+    <!---Tabla de temperatura-->
+    <aside>
+    <h2>Temperatura en Oviedo</h2>
+    <table>
+      <caption>Tabla temperaturas medias ultimos 10 años</caption>
+        <tr>
+          <th scope="col" id="Año">Año</th>
+          <th scope="col" id="año2013">2013</th>
+          <th scope="col" id="año2014">2014</th>
+          <th scope="col" id="año2015">2015</th>
+          <th scope="col" id="año2016">2016</th>
+          <th scope="col" id="año2017">2017</th>
+          <th scope="col" id="año2018">2018</th>
+          <th scope="col" id="año2019">2019</th>
+          <th scope="col" id="año2020">2020</th>
+          <th scope="col" id="año2021">2021</th>
+          <th scope="col" id="año2022">2022</th>
+          <th scope="col" id="año2023">2023</th>
+        </tr>
+        <tr>
+          <th scope = "row" id="temperaturas">Temperatura</th>
+          <td headers="año2013 temperaturas" id="temp2013">12.3</td>
+          <td headers="año2014 temperaturas" id="temp2014">13.5</td>
+          <td headers="año2015 temperaturas" id="temp2015">13.4</td>
+          <td headers="año2016 temperaturas" id="temp2016">13.2</td>
+          <td headers="año2017 temperaturas" id="temp2017">13.3</td>
+          <td headers="año2018 temperaturas" id="temp2018">13.1</td>
+          <td headers="año2019 temperaturas" id="temp2019">13.2</td>
+          <td headers="año2020 temperaturas" id="temp2020">13.8</td>
+          <td headers="año2021 temperaturas" id="temp2021">13.0</td>
+          <td headers="año2022 temperaturas" id="temp2022">14.0</td>
+          <td headers="año2023 temperaturas" id="temp2023">14.0</td>
+        </tr>
+    </table>
+  </aside>
+  </body>
+</html>
