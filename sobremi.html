@@ -3,23 +3,20 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Escritorio Virtual: Sobre mi</title>
     <meta name = "author" content = "LUCIA VILLANUEVA RODRIGUEZ" />
     <meta name = "description" content = " Este documento contiene informacion personal del autor" />
     <meta name = "keywords" content ="nombre, apellidos, UO" />
     <meta name = "viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <title>Escritorio Virtual: Sobre mi</title>
+
     <link rel = "stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="icon" href="multimedia/imagenes/ImagenFavicon.jpg" />
-
-    
 </head>
 
 <body>
   <header>
   <h1>Escritorio virtual</h1>
-  
-  
-  
     <!-- Datos con el contenidos que aparece en el navegador poner en minusculas todo -->
     <nav>
         <a title ="Inicio de escritorio virtual" accesskey ="A" href = "index.html" tabindex ="1"> Inicio </a>
@@ -31,35 +28,35 @@
         <a title = "Juegos" accesskey ="J" href = "juegos.html" tabindex = "7">Juegos</a>
     </nav>
   </header>
-  <section>
-    <h2>Informacion personal autor</h2>
-    <article>
+
+    <h2>Sobre mi</h2>
     <!---Informacion personal-->
+    <section>
       <h3>Datos personales</h3>
        <p>Nombre: Lucia</p>
        <p>Apellidos: Villanueva Rodriguez</p>
        <p>UO: UO283535</p>
        <p>Correo electronico: uo283535@uniovi.es </p>
-       <p>Soy estudiante, actualmente hago tercero de carrera del grado Ingenieria Informatica del software. En mi tiempo libre, disfruto de mi familia y amigos.Me considero amigable y muy organizada.</p>
+       <p>Soy estudiante, actualmente hago tercero de carrera del grado Ingenieria Informatica del software. En mi tiempo libre, disfruto de mi familia y amigos.</p>
        <picture>
          <source media="(max-width: 465px)" srcset="multimedia/imagenes/Imagen3.jpg" />
          <source media="(max-width: 799px)" srcset="multimedia/imagenes/Imagen2.jpg" />
-         <source srcset="multimedia/imagenes/Imagen1.JPG" media="(min-width: 800px)" />
-         <img src="multimedia/imagenes/Imagen1.JPG" alt="Viajes valido!!" />
+         <source  media="(min-width: 800px)" srcset="multimedia/imagenes/Imagen1.JPG" />
+         <img src="multimedia/imagenes/Imagen1.JPG" alt="Viajes valido!" />
        </picture>
-    </article>
-    <article>
+      </section>
     <!---Listas-->
     <!---Lista de aficiones (no ordenada) con al menos 5 elementos se incluye una lista anidada con elementos ordenados de mis ciudades visitadas favoritas-->
+    <section>
     <h3>Aficiones</h3>
     <ul>
       <li>Viajar
-        <ol type="i">
+        <ol>
           <li>Roma</li>
           <li>Paris</li>
           <li>Copenhague</li>
           <li>Lisboa</li>
-          <li>Estocolmo</li>
+          <li>Budapest</li>
         </ol>
       </li>
       <li>Natacion</li>
@@ -67,13 +64,14 @@
       <li>Escuchar musica</li>
       <li>Hacer yoga</li>
     </ul>
+    <p>Observa un breve video de uno de mis ultimos viajes a Roma</p>
    <video controls>
     <source src="multimedia/videos/VideoViajes.mp4" type="video/mp4" />
     <source src="multimedia/videos/VideoViajes.webm" type="video/webm" />
     <p>Video no soportado</p>
    </video>
-   </article>
-   <article>
+  </section>
+  <section>
     <!--Lista de grupos musicales o cantantes favoritos (ordenada) con al menos 5 elementos-->
     <h3>Grupos musicales / Cantantes favoritos</h3>
     <ol>
@@ -84,26 +82,33 @@
       <li>OneRepublic</li>
     </ol>
     <!--Ejercicio 8-->
-    <a href="https://www.coldplay.com/tour/">Conoce todos los conciertos de la gira de ColdPlay</a>
+    <a href="https://www.coldplay.com/tour/">Conoce la gira de ColdPlay</a>
     <a href="https://www.alejandrosanz.com/home">Descubre las ultimas novedades de Alejandro Sanz</a>
-  </article>
-    <article>
+  </section>
+  <section>
    <h3>Lista de asignaturas del grado que mas me hayan gustado</h3>
     <dl>
       <dt>BD</dt>
-      <dd>Bases de datos, lo que mas me ha gustado de esta asignatura es la parte de JDBC ya que me gusta mucho la parte de Sistemas de gestion de bases de datos</dd>
+      <dd>Bases de datos, asigantura del segundo cuatrimestre del segundo curso de Ingenieria Informatica del software,
+        lo que mas me ha gustado de esta asignatura es la parte de JDBC ya que me gusta mucho la parte de Sistemas de gestion de bases de datos</dd>
+      
       <dt>CPM</dt>
-      <dd>Comunicacion persona-maquina, lo mejor de esta asignatura ha sido poder ir visualizando los progresos a traves de la interfaz de usuario a lo largo 
-        del curso</dd>
-      <dt>ED</dt>
-      <dd>Estructura de datos, lo que mas me ha gustado ha sido poder conocer la implementacion base de estructuras que habia utilizado anteriormente</dd>
-      <dt>AMD</dt>
-      <dd>Automatas y matematicas discretas, lo que mas me ha gustado ha sido</dd>
-      <dt>MP</dt>
-      <dd>Metodologia de la programacion, lo que mas me ha gustado ha sido </dd>
+      <dd>Comunicacion persona-maquina, asignatura del primer cuatrimestre del segundo curso de Ingenieria Informatica del software,
+        lo mejor de esta asignatura ha sido poder ir visualizando los progresos a traves de la interfaz de usuario a lo largo del curso</dd>
+      
+        <dt>ED</dt>
+      <dd>Estructura de datos, asigantura del primer cuatrimestre del segundo curso de Ingenieria Informatica del software,
+        lo que mas me ha gustado ha sido poder conocer la implementacion de estructuras que habia utilizado anteriormente en otras asignaturas</dd>
+
+      <dt>IP</dt>
+      <dd>Introduccion a la programacion, asignatura del primer cuatrimestre del primer curso de Ingenieria Informactica del software,
+        me ha servido para familiarizarme con los conceptos basicos del lenguaje de programacion Java </dd>
+      
+        <dt>MP</dt>
+      <dd>Metodologia de la programacion, asignatura del segundo cuatrimestre del primer curso de Ingenieria Informatica del software,
+         me ha gustado mucho poder descubrir nuevas funcionalidades del lenguaje de programcion Java</dd>
     </dl>
-  </article>
-</section>
+   </section>
     
     <!---Tabla de temperatura-->
     <aside>
