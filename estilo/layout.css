@@ -1,0 +1,31 @@
+/*Lucia Villanueva Rodriguez UO283535*/
+
+@media (min-width: 600px) {
+/*Especificidad 001*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Especificidad 001*/
+picture {
+    display:flex;
+    justify-content: center;
+}
+}
+/*Especificidad 001*/
+h1{
+    flex-grow:1;
+}
+picture{
+    flex-grow: 2;
+}
+
+@media (max-width: 600px) {
+   
+    /*Especificidad 001*/
+    picture {
+        display:flex;
+        justify-content: left;
+    }
+}

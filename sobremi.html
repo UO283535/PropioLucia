@@ -11,6 +11,7 @@
     <title>Escritorio Virtual: Sobre mi</title>
 
     <link rel = "stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel = "stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/imagenes/ImagenFavicon.jpg" />
 </head>
 
@@ -51,19 +52,19 @@
     <section>
     <h3>Aficiones</h3>
     <ul>
-      <li>Viajar
-        <ol>
-          <li>Roma</li>
-          <li>Paris</li>
-          <li>Copenhague</li>
-          <li>Lisboa</li>
-          <li>Budapest</li>
-        </ol>
-      </li>
       <li>Natacion</li>
       <li>Coches</li>
       <li>Escuchar musica</li>
       <li>Hacer yoga</li>
+      <li>Viajar
+      <ol>
+        <li>Roma</li>
+        <li>Paris</li>
+        <li>Copenhague</li>
+        <li>Lisboa</li>
+        <li>Budapest</li>
+      </ol>
+      </li>
     </ul>
     <p>A continuacion, un breve video de uno de mis ultimos viajes a Roma</p>
    <video controls>
@@ -88,6 +89,11 @@
     <p>Enlaces de interes de los mencionados grupos musicales/cantantes</p>
     <a href="https://www.coldplay.com/tour/">Conoce la gira de ColdPlay</a>
     <a href="https://www.alejandrosanz.com/home">Descubre las ultimas novedades de Alejandro Sanz</a>
+    <p>Escucha una de las canciones mas importantes de Coldplay</p>
+    <audio controls>
+      <source src="multimedia/audios/Audio1.mp3" type="audio/mp3">
+      <source src="multimedia/audios/Audio1.wav" type="audio/wav">
+    </audio>
   </section>
 
 
@@ -123,32 +129,52 @@
       <caption>Tabla temperaturas medias ultimos 10 años</caption>
         <tr>
           <th scope="col" id="Año">Año</th>
-          <th scope="col" id="año2013">2013</th>
-          <th scope="col" id="año2014">2014</th>
-          <th scope="col" id="año2015">2015</th>
-          <th scope="col" id="año2016">2016</th>
-          <th scope="col" id="año2017">2017</th>
-          <th scope="col" id="año2018">2018</th>
-          <th scope="col" id="año2019">2019</th>
-          <th scope="col" id="año2020">2020</th>
-          <th scope="col" id="año2021">2021</th>
-          <th scope="col" id="año2022">2022</th>
-          <th scope="col" id="año2023">2023</th>
+          <th scope = "col" id="temperaturas">Temperatura</th>
         </tr>
         <tr>
-          <th scope = "row" id="temperaturas">Temperatura</th>
-          <td headers="año2013 temperaturas" id="temp2013">12.3</td>
-          <td headers="año2014 temperaturas" id="temp2014">13.5</td>
-          <td headers="año2015 temperaturas" id="temp2015">13.4</td>
-          <td headers="año2016 temperaturas" id="temp2016">13.2</td>
-          <td headers="año2017 temperaturas" id="temp2017">13.3</td>
-          <td headers="año2018 temperaturas" id="temp2018">13.1</td>
-          <td headers="año2019 temperaturas" id="temp2019">13.2</td>
-          <td headers="año2020 temperaturas" id="temp2020">13.8</td>
-          <td headers="año2021 temperaturas" id="temp2021">13.0</td>
-          <td headers="año2022 temperaturas" id="temp2022">14.0</td>
-          <td headers="año2023 temperaturas" id="temp2023">14.0</td>
+          <td headers="Año" id="año2013">2013</td>
+          <td headers="temperaturas" id="temp2013">12.3</td>
         </tr>
+         <tr>
+            <td headers="Año" id="año2014">2014</td>
+            <td headers="temperaturas" id="temp2014">13.5</td>
+         </tr>
+         <tr>
+          <td headers="Año" id="año2015">2015</td>
+          <td headers="temperaturas" id="temp2015">13.4</td>
+         </tr>
+         <tr>
+          <td headers="Año" id="año2016">2016</td>
+          <td headers="temperaturas" id="temp2016">13.2</td>
+        </tr>
+         <tr>
+          <td headers="Año" id="año2017">2017</td>
+          <td headers="temperaturas" id="temp2017">13.3</td>
+         </tr>
+          <tr>
+            <td headers="Año" id="año2018">2018</td>
+          <td headers="temperaturas" id="temp2018">13.1</td>
+          </tr>
+          <tr>
+            <td headers="Año" id="año2019">2019</td>
+            <td headers="temperaturas" id="temp2019">13.2</td>
+          </tr>
+         <tr>
+          <td headers="Año" id="año2020">2020</td>
+          <td headers="temperaturas" id="temp2020">13.8</td>
+         </tr>
+          <tr>
+            <td headers="Año" id="año2021">2021</td>
+            <td headers="temperaturas" id="temp2021">13.0</td>
+          </tr>
+          <tr>
+            <td headers="Año" id="año2022">2022</td>
+            <td headers="temperaturas" id="temp2022">14.0</td>
+          </tr>
+          <tr>
+          <td headers="Año" id="año2023">2023</td>
+          <td headers="temperaturas" id="temp2023">14.0</td>
+          </tr>
     </table>
   </aside>
   </body>
