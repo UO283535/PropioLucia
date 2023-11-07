@@ -47,7 +47,7 @@ a:visited{
 }
 /*Especificidad 001*/
 nav a:hover{
-    color: #F7D6D0;
+    color: black;
      /* background-color hereda de body */
 }
 /*Especificidad 001*/
@@ -68,6 +68,7 @@ dt,li{
 /*Especificidad 001*/
 dt{
     color:#821D30;
+     /* background-color hereda de body */
 }
 /*Especificidad 004*/
 ul>li>ol>li{
