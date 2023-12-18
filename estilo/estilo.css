@@ -25,7 +25,7 @@ h2{
     font-size: 2em;
 
 }
-/*Especificidad 001 */
+/*Especificidad 001  */
 h3{
     color:#821D30;
     font-weight: bold;
@@ -38,28 +38,28 @@ h3{
 a{
     font-weight: bolder;
     color: #FB6090;
-    /* background-color hereda de body */
+    /* background-color hereda de body el color negro */
 }
 /*Especificidad 011 */
 a:visited{
     color: #821D30;
-     /* background-color hereda de body */
+     /* background-color hereda de body  el color blanco*/
 }
 /*Especificidad 001*/
 nav a:hover{
     color: black;
-     /* background-color hereda de body */
+     /* background-color hereda de body el color blanco */
 }
 /*Especificidad 001*/
 p{
     text-align: justify;
-    /* background-color y color hereda de body */
+    
 }
 
 /*Especificidad 012*/
 ul>li:nth-child(3){
     color:#821D30;
-     /* background-color hereda de body */
+     /* background-color hereda de body el color blanco */
 }
 /*Especificidad 001, 001*/
 dt,li{
@@ -68,17 +68,20 @@ dt,li{
 /*Especificidad 001*/
 dt{
     color:#821D30;
-     /* background-color hereda de body */
+     /* background-color hereda de body el color blanco*/
 }
 /*Especificidad 004*/
 ul>li>ol>li{
     font-weight: normal;
 }
 /*Especificidad 002*/
-li::marker{color:#652020;}
+li::marker{
+    color:#652020;
+    /* background-color hereda de body el color blanco*/
+}
 th{
     color:#821D30;
-    /*background-color hereda de body*/
+    /*background-color hereda de body el color blanco*/
 }
 /*Especificidad 001*/
 video{
@@ -86,9 +89,10 @@ video{
     height:100%;
 }
 
-/*Especificidad 001*/
+/*Especificidad 001
 image{
    max-width: 100%;
    height:100%;
-}
+}*/
+
 
