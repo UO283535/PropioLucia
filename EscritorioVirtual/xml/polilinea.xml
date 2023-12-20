@@ -1,0 +1,127 @@
+<ns0:rutas-turisticas xmlns:ns0="http://tempuri.org/rutas" xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:schemaLocation="http://tempuri.org/rutas rutas.xsd">
+  <ns0:ruta>
+    <ns0:nombre>Ruta por Se&#250;l</ns0:nombre>
+    <ns0:tipo>Ciudad</ns0:tipo>
+    <ns0:transporte>Metro y a pie</ns0:transporte>
+    <ns0:duracion>2 d&#237;as</ns0:duracion>
+    <ns0:agencia>Visit Korea</ns0:agencia>
+    <ns0:descripcion>Explora la capital de Corea del Sur, Se&#250;l, y descubre su rica historia y cultura.</ns0:descripcion>
+    <ns0:personasAdecuadas>Turistas interesados en la historia y la gastronom&#237;a.</ns0:personasAdecuadas>
+    <ns0:lugar_inicio>Palacio de Gyeongbokgung</ns0:lugar_inicio>
+    <ns0:direccion_inicio>161 Sajik-ro, Jongno-gu, Se&#250;l</ns0:direccion_inicio>
+    <ns0:coordenada_inicio>
+      <ns0:longitud>126.977966</ns0:longitud>
+      <ns0:latitud>37.577262</ns0:latitud>
+      <ns0:altitud>50</ns0:altitud>
+    </ns0:coordenada_inicio>
+    <ns0:referencias>
+        <ns0:referencia src=" " />
+    </ns0:referencias>
+    <ns0:bibliografia>Gu&#237;a tur&#237;stica de Se&#250;l</ns0:bibliografia>
+    <ns0:recomendacion>Lleva calzado c&#243;modo y un paraguas, ya que el clima puede ser impredecible.</ns0:recomendacion>
+    <ns0:hitos>
+      <ns0:hito>
+        <ns0:nombreHito>Palacio de Gyeongbokgung</ns0:nombreHito>
+        <ns0:descripcionHito>Un majestuoso palacio real de la dinast&#237;a Joseon.</ns0:descripcionHito>
+        <ns0:coordenadaHito>
+          <ns0:longitud>126.977966</ns0:longitud>
+          <ns0:latitud>37.577262</ns0:latitud>
+          <ns0:altitud>50</ns0:altitud>
+        </ns0:coordenadaHito>
+        <ns0:distanciaHito>0 km desde el inicio</ns0:distanciaHito>
+        <ns0:fotografiasHito>
+          <ns0:fotografiaHito src="gyeongbokgung.jpg" />
+        </ns0:fotografiasHito>
+        <ns0:videosHito>
+          <ns0:videoHito src="gyeongbokgung.mp4" />
+        </ns0:videosHito>
+      </ns0:hito>
+      
+    </ns0:hitos>
+  </ns0:ruta>
+ <ns0:ruta>
+      <ns0:nombre>Ruta por Busan</ns0:nombre>
+      <ns0:tipo>Ciudad y Playa</ns0:tipo>
+      <ns0:transporte>Autob&#250;s y ferry</ns0:transporte>
+      <ns0:duracion>3 d&#237;as</ns0:duracion>
+      <ns0:agencia>Korea Travel Co.</ns0:agencia>
+      <ns0:descripcion>Descubre la ciudad costera de Busan y disfruta de sus hermosas playas y mariscos frescos.</ns0:descripcion>
+      <ns0:personasAdecuadas>Aventureros y amantes de la playa.</ns0:personasAdecuadas>
+      <ns0:lugar_inicio>Estaci&#243;n de autobuses de Busan</ns0:lugar_inicio>
+      <ns0:direccion_inicio>15-1 Gudeok-ro, Gudeok-myeon, Gimhae, Gyeongsangnam-do</ns0:direccion_inicio>
+      <ns0:coordenada_inicio>
+        <ns0:longitud>128.938596</ns0:longitud>
+        <ns0:latitud>35.166642</ns0:latitud>
+        <ns0:altitud>10</ns0:altitud>
+      </ns0:coordenada_inicio>
+      <ns0:referencias>
+        <ns0:referencia src=" " />
+    </ns0:referencias>
+      <ns0:bibliografia>Gu&#237;a de viaje de Busan</ns0:bibliografia>
+      <ns0:recomendacion>Lleva protector solar y traje de ba&#241;o para disfrutar de la playa.</ns0:recomendacion>
+      <ns0:hitos>
+        <ns0:hito>
+          <ns0:nombreHito>Playa de Haeundae</ns0:nombreHito>
+          <ns0:descripcionHito>Una de las playas m&#225;s famosas de Corea del Sur.</ns0:descripcionHito>
+          <ns0:coordenadaHito>
+            <ns0:longitud>129.16215</ns0:longitud>
+            <ns0:latitud>35.15768</ns0:latitud>
+            <ns0:altitud>1</ns0:altitud>
+          </ns0:coordenadaHito>
+          <ns0:distanciaHito>0 km desde el inicio</ns0:distanciaHito>
+          <ns0:fotografiasHito>
+            <ns0:fotografiaHito src="gyeongbokgung.jpg" />
+          </ns0:fotografiasHito>
+          <ns0:videosHito>
+            <ns0:videoHito src="gyeongbokgung.mp4" />
+          </ns0:videosHito>
+          
+        </ns0:hito>
+        
+      </ns0:hitos>
+    </ns0:ruta>
+        <ns0:ruta>
+          <ns0:nombre>Ruta por Gyeongju</ns0:nombre>
+          <ns0:tipo>Ciudad y Patrimonio Cultural</ns0:tipo>
+          <ns0:transporte>Tren y a pie</ns0:transporte>
+          <ns0:fecha_inicio>24/10/2023</ns0:fecha_inicio>
+          <ns0:hora_inicio>09:00</ns0:hora_inicio>
+          <ns0:duracion>2 d&#237;as</ns0:duracion>
+          <ns0:agencia>Cultural Heritage Tours</ns0:agencia>
+          <ns0:descripcion>Explora la ciudad de Gyeongju y sum&#233;rgete en su rica herencia cultural y arqueol&#243;gica.</ns0:descripcion>
+          <ns0:personasAdecuadas>Amantes de la historia y la arqueolog&#237;a.</ns0:personasAdecuadas>
+          <ns0:lugar_inicio>Estaci&#243;n de tren de Gyeongju</ns0:lugar_inicio>
+          <ns0:direccion_inicio>73-1, Hwango-dong, Gyeongju, Gyeongsangbuk-do</ns0:direccion_inicio>
+          <ns0:coordenada_inicio>
+            <ns0:longitud>129.215028</ns0:longitud>
+            <ns0:latitud>35.840599</ns0:latitud>
+            <ns0:altitud>10</ns0:altitud>
+          </ns0:coordenada_inicio>
+          <ns0:referencias>
+            <ns0:referencia src=" " />
+        </ns0:referencias>
+          <ns0:bibliografia>Gu&#237;a de Gyeongju</ns0:bibliografia>
+         
+          <ns0:recomendacion>Lleva calzado c&#243;modo y una c&#225;mara para capturar los sitios hist&#243;ricos.</ns0:recomendacion>
+          <ns0:hitos>
+            <ns0:hito>
+              <ns0:nombreHito>T&#250;mulos Reales de Gyeongju</ns0:nombreHito>
+              <ns0:descripcionHito>Sitios de entierro de la realeza de la dinast&#237;a Silla.</ns0:descripcionHito>
+              
+              <ns0:coordenadaHito>
+                <ns0:longitud>129.211</ns0:longitud>
+                <ns0:latitud>35.781</ns0:latitud>
+                <ns0:altitud>16</ns0:altitud>
+              </ns0:coordenadaHito>
+              <ns0:distanciaHito>0 km desde el inicio</ns0:distanciaHito>
+              <ns0:fotografiasHito>
+                <ns0:fotografiaHito src="gyeongbokgung.jpg" />
+              </ns0:fotografiasHito>
+              <ns0:videosHito>
+                <ns0:videoHito src="gyeongbokgung.mp4" />
+              </ns0:videosHito>
+            </ns0:hito>
+            
+          </ns0:hitos>
+        </ns0:ruta>
+  <polyline points="10,10 20,30 30,15 40,40" /></ns0:rutas-turisticas>
