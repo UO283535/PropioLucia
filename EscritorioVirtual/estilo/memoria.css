@@ -1,0 +1,76 @@
+/*Especificidad 001 */
+section {
+    display: flex;
+    
+    flex-flow: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin: 5px;
+    
+}
+/* Especificidad 001*/
+h2{
+    width:100%;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/* Especificidad 001*/
+article {
+    display:flex;
+    background-color: crimson;
+    color: #ffffff;
+    width: 10em;
+    height: 20em;
+    transform: scale(1);
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    position: relative;
+}
+/* Especificidad 001*/
+img {
+    width: 100%;
+}
+/* Especificidad 002 ambos*/
+article img,
+article p
+ {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+/* Especificidad 002*/
+article img {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+/* Especificidad 002*/
+article p {
+    
+    backface-visibility: hidden;
+}
+/* Especificidad 011*/
+article[data-state='flip'] {
+     transform: rotateY(180deg);
+}
+/* Especificidad 011*/
+article[data-state='revealed'] {
+    transform: rotateY(180deg);
+}
+
+@media (min-width: 600px) {
+    /* Especificidad 001*/
+   section{
+    width:44em;
+   }
+}

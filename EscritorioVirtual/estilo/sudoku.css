@@ -1,0 +1,43 @@
+/* Especificidad 001*/
+body{
+  background-color: white;
+}
+/* Especificidad 001*/
+h2{
+  display: flex;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  justify-content: center;
+}
+/* Especificidad 001*/
+main {
+  display: grid;
+ 
+  grid-template-columns: repeat(9, 3fr);
+  grid-template-rows:  repeat(9, 3fr);
+  gap: 0;
+  border: 2px solid black;
+  background-color: #652020;
+  color:#FFDBE2;
+  align-self: center;
+}
+/* Especificidad 001*/
+p {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+
+@media (min-width: 600px) {
+  /* Especificidad 001*/
+ main{
+  width: 700px;
+  height: 900px;
+ }
+}
